@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="vendor/autoload.php">
+  <php>
+    <const name="PHPUNIT_TESTSUITE_EMAIL_LOGIN" value="mail@dominio.com"/>
+    <const name="PHPUNIT_TESTSUITE_APIKEY" value="00000-0000-0000-0000-000000000000"/>
+  </php>
+  <testsuites>
+    <testsuite name="TotalCoin PHP SDK Test Suite">
+      <directory>test/</directory>
+    </testsuite>
+  </testsuites>
+</phpunit>
